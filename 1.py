@@ -7,6 +7,7 @@
 import streamlit as st  # Streamlit是用来创建网页应用的库
 import pandas as pd  # Pandas是用来处理表格数据的库
 import matplotlib.pyplot as plt  # Matplotlib是用来画图的库
+import openpyxl
 
 # 设置图表中的字体为微软雅黑，这样图表中就可以显示中文了
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
